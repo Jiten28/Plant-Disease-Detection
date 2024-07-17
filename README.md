@@ -14,3 +14,7 @@ In order to run this program you first need to install some modules:
         (pip install pandas)
     • Keras
         (pip install keras)
+
+In order to run the web application we are using streamlite
+    • streamlit
+        (pip install streamlit)
