@@ -33,3 +33,69 @@ Plant Disease Detection is a machine learning-powered project aimed at identifyi
    - Install Streamlit (see library installation commands below).  
    - Launch the web application to test the model through an interactive interface.
 
+### **Libraries and Installation Commands**  
+
+1. **TensorFlow**  
+   - **Install Command**:  
+     ```bash
+     pip install tensorflow
+     ```  
+   - **Use**: For building and training the deep learning model.  
+     ```python
+     import tensorflow as tf
+     ```
+
+2. **Keras**  
+   - **Install Command**:  
+     ```bash
+     pip install keras
+     ```  
+   - **Use**: High-level API for neural network construction and training.  
+     ```python
+     from keras.models import load_model
+     ```
+
+3. **Matplotlib**  
+   - **Install Command**:  
+     ```bash
+     pip install matplotlib
+     ```  
+   - **Use**: For plotting results, trends, and data visualizations.  
+     ```python
+     import matplotlib.pyplot as plt
+     ```
+
+4. **Seaborn**  
+   - **Install Command**:  
+     ```bash
+     pip install seaborn
+     ```  
+   - **Use**: For creating visually appealing and detailed plots.  
+     ```python
+     import seaborn as sns
+     ```
+
+5. **Pandas**  
+   - **Install Command**:  
+     ```bash
+     pip install pandas
+     ```  
+   - **Use**: For data manipulation and analysis.  
+     ```python
+     import pandas as pd
+     ```
+
+6. **Streamlit**  
+   - **Install Command**:  
+     ```bash
+     pip install streamlit
+     ```  
+   - **Use**: For building a web-based interface to interact with the trained model.  
+     ```bash
+     streamlit run app.py
+     ```
+
+### **File Details**  
+- **`Train_plant_disease.ipynb`**: Jupyter notebook for training the model.  
+- **`Test_plant_disease.ipynb`**: Jupyter notebook for testing the trained model with an input image.  
+- **`trained_plant_disease_model.keras`**: The saved machine learning model after training.
