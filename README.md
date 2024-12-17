@@ -17,6 +17,9 @@ The **Plant Disease Detection** project leverages machine learning to identify p
 - **Multi-Crop Support**: Expand the model to accommodate a wider variety of plants and diseases.  
 - **Mobile Application**: Develop a mobile version to allow farmers to diagnose plant diseases on the go.
 
+### **Python Version**
+- Python 3.11.9 or higher.
+
 ## Steps to Start the Project  
 
 1. **Training the Model**  
