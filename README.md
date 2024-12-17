@@ -1,32 +1,32 @@
-**Plant Disease Detection: Revolutionizing Agriculture with Machine Learning**
+**Plant Disease Detection: Revolutionizing Agriculture with Machine Learning**  
 
 ## Overview  
 The **Plant Disease Detection** project leverages machine learning to identify plant diseases accurately and quickly. Traditional visual inspection is time-consuming and prone to delays, which can negatively impact crop health. By automating the disease detection process, this project supports healthier crops, boosts agricultural productivity, and promotes sustainable farming.
 
 ## Key Features  
 - **Machine Learning for Disease Detection**: Deep learning models analyze plant images to diagnose diseases efficiently.  
-- **Web Application Interface**: Built with Streamlit for easy access and a user-friendly experience.  
-- **Data Visualization**: Matplotlib and Seaborn for visual representation of results and trends.  
-- **Scalable Solution**: Supports multiple crops and diseases, adaptable to various agricultural contexts.  
+- **Data Visualization**: Matplotlib and Seaborn are used to present results and trends in a visually appealing format.  
+- **Scalable Solution**: The system supports multiple crops and diseases, making it adaptable to various agricultural contexts.
 
 ## Challenges  
-- **Dataset Quality**: Ensuring the training data is diverse and accurately labeled for optimal model performance.  
-- **Model Optimization**: Balancing prediction accuracy with computational efficiency for faster results.  
+- **Dataset Quality**: Ensuring diverse and accurately labeled data to optimize model performance.  
+- **Model Optimization**: Balancing prediction accuracy with computational efficiency to ensure faster results.
 
 ## Future Enhancements  
-- **IoT Integration**: Utilize drones and cameras for real-time monitoring of crops in the field.  
-- **Multi-Crop Support**: Expand the model to include more plant types and diseases.  
-- **Mobile Application**: Develop a mobile version to allow farmers to diagnose plant diseases on the go.  
+- **IoT Integration**: Use drones and cameras for real-time field monitoring.  
+- **Multi-Crop Support**: Expand the model to accommodate a wider variety of plants and diseases.  
+- **Mobile Application**: Develop a mobile version to allow farmers to diagnose plant diseases on the go.
 
 ## Steps to Start the Project  
-1. **Training the Model**  
-   Open and run the `Train_plant_disease.ipynb` notebook. This trains the model using the provided dataset and saves it as `trained_plant_disease_model.keras`.  
-   
-2. **Testing the Model**  
-   Open and run the `Test_plant_disease.ipynb` notebook. Provide an image of a plant leaf for testing. The model will predict whether the plant is healthy or diseased based on the training.  
 
-3. **Running the Web Application**  
-   Install Streamlit and launch the web application to interact with the trained model.  
+1. **Training the Model**  
+   Open and run the `Train_plant_disease.ipynb` notebook. This will train the model using the provided dataset and save it as `trained_plant_disease_model.keras`.
+
+2. **Testing the Model**  
+   Open and run the `Test_plant_disease.ipynb` notebook. Provide an image of a plant leaf for testing. The model will predict whether the plant is healthy or diseased based on the trained data.
+
+3. **Running the Model**  
+   Install required libraries and run the model for predictions.
 
 ## Libraries and Installation Commands  
 - **TensorFlow**  
@@ -43,7 +43,7 @@ The **Plant Disease Detection** project leverages machine learning to identify p
   ```bash  
   pip install keras  
   ```  
-  Use: High-level API for neural network construction and training.  
+  Use: High-level API for constructing and training neural networks.  
   ```python  
   from keras.models import load_model  
   ```  
@@ -70,12 +70,12 @@ The **Plant Disease Detection** project leverages machine learning to identify p
   ```bash  
   pip install streamlit  
   ```  
-  Use: For building the web interface.  
+  Use: For building the web interface (if applicable).  
   ```bash  
   streamlit run app.py  
-  ```  
+  ```
 
 ## File Details  
-- **Train_plant_disease.ipynb**: Notebook for training the model.  
-- **Test_plant_disease.ipynb**: Notebook for testing the trained model with an input image.  
-- **trained_plant_disease_model.keras**: The saved machine learning model after training.  
+- **Train_plant_disease.ipynb**: Jupyter notebook for training the model.  
+- **Test_plant_disease.ipynb**: Jupyter notebook for testing the trained model with an input image.  
+- **trained_plant_disease_model.keras**: The saved machine learning model after training.
