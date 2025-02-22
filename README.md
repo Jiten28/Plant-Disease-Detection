@@ -1,5 +1,5 @@
-h# **Plant Disease Detection: Revolutionizing Agriculture with Machine Learning**  
-dfh
+# **Plant Disease Detection: Revolutionizing Agriculture with Machine Learning**  
+dfhfsdh
 ## Overview  
 The **Plant Disease Detection** project leverages machine learning to identify plant diseases accurately and quickly. Traditional visual inspection is time-consuming and prone to delays, which can negatively impact crop health. By automating the disease detection process, this project supports healthier crops, boosts agricultural productivity, and promotes sustainable farming.
 
